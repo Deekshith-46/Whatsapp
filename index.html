@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's app Chat</title>
+    <script src="https://kit.fontawesome.com/ac6ee84b93.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            /* text-align: center; */
+            border: 4px solid;
+            width: 260px;
+            height: 460px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            /* position: fixed; */
+            background-color: rgba(11, 163, 11, 0.815);
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            padding: 6px;    
+        }
+        .icon-1{
+            /* padding-right: 220px; */
+            text-align: left;
+            color: white;
+            font-size: 15px;
+            margin-top: 10px;    
+        }
+        .icon-2{
+            text-align: left;
+            color: white;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .profile{
+            width: 32px;
+            height: 35px;
+            border-radius:50%;
+            margin-left: 5px;
+        }
+        .icons{
+            display: flex;
+            flex-direction: row;
+            margin-left: 100px;
+        }
+        .footer{
+            background-color:#F5F5F5;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+            position: absolute;
+            bottom: 0px;    
+            height: 45px;
+        }
+        .row{
+            display: inline-block;
+            position: relative;   
+        }
+        .row-1{
+            text-align: center;
+            padding-left: 20px;
+            border-width: 0px;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding: 5px;
+            width: 210px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .voice{
+            background-color: green;
+            color: black;
+            padding: 2px;
+            border-radius: 50%;
+            font-size: 15px;
+            padding: 7px;             
+        }
+        .emoji{
+            position: relative; 
+            bottom: 5%;  
+        }
+        .align{
+            display:flex;
+            flex-direction: row;
+            position: absolute;
+            top: 11px;
+        }
+        .align-1{
+            text-align:start ;
+            margin-left: 10px;
+        }
+        .align-2{
+            margin-left: 130px;           
+        }
+        .attach{
+            margin-right: 6px;
+        }
+        
+        .scroll-effect{
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+        .bg-img{
+            background-image: url("https://wallpapers.com/images/hd/whatsapp-chat-background-fb34cc4b2hg9lmix.jpg");
+            background-size: cover;
+            position: absolute;
+            height: 80%;
+            overflow: auto;
+            scrollbar-width: none;
+            width: 260px;   
+        }
+        
+        .day-1{
+            background-color: lightblue;
+            font-size: 14px;
+            padding: 6px;
+            border-radius: 10px;
+            
+        }
+        .sticky{
+            position: sticky;
+            top: 10px; 
+        }
+        .text-me-align{
+            display: flex;
+            justify-content: end;
+            margin-right: 5px;
+        }
+        .text-me{
+            background-color: white;
+            width: 130px; 
+            padding: 5px;
+            border-radius: 10px;            
+        }
+        .text-darling-align{
+            display: flex;
+            justify-content: start;
+            margin-right: 5px;
+        }
+        .text-darling{
+            background-color: white;
+            width: 190px; 
+            padding: 5px;
+            border-radius: 10px;            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            
+            <i class="fa-solid fa-arrow-left icon-1"></i>
+            <img src="https://pbs.twimg.com/media/Fo0uP7iaAAAJfw2.jpg:large" alt="" class="profile">
+            <div class="icons">
+                <i class="fa-duotone fa-solid fa-video icon-2"></i>
+                <i class="fa-duotone fa-solid fa-phone icon-2"></i>
+                <i class="fa-solid fa-ellipsis-vertical icon-2"></i>
+            </div>
+        </div>
+        <div class="scroll-effect">
+            <div class="bg-img"><br>
+                <div class="sticky">
+                    <center><span class="day-1">25 JULY</span></center>
+                </div>
+                <div class="text-me-align">
+                    <p class="text-me ">Hi Darlingg !!&nbsp;<i class="fa-regular fa-face-grin-stars" style="color: #b71042;"></i>
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -6px;"></i>
+                    </p>   
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling">Hi Darling, How Are You!!</p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me"style="width: 190px;">Oh dam!,you replayed me
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -6px;"></i>
+                    </p>
+                </div>  
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 120px;">Yeah Darling!!
+                        <i class="fa-solid fa-face-grin-wink" style="color:lightsalmon;"></i>
+                    </p>
+                </div>
+                
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">Congrats on Kalki 2898 AD's success!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 130px;"></i>
+                    </p>
+                </div>  
+                <div class="text-darling-align">
+                    <p class="text-darling">Glad you enjoyed Kalki 2898 AD!</p>
+                </div>
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">Loved your performance!
+                        <i class="fa-solid fa-face-kiss-wink-heart" style="color: #ee2020;"></i>
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -5px;"></i>
+                    </p>
+                </div>  
+                <div class="text-darling-align">
+                    <p class="text-darling">Your support means a lot!</p>
+                </div>
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">You're the best actor ever!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 20px;"></i>
+                    </p>
+                </div>  
+                <div class="text-darling-align">
+                    <p class="text-darling">I'm humbled by your kind words!</p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">We Love you always Darling
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -2px;"></i>
+                    </p>
+                </div> 
+                <div class="sticky">
+                    <center><span class="day-1">26 JULY</span></center>
+                </div>
+                
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me ">Hi Darlingg !!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -22px;"></i>
+                    </p>
+                </div> 
+                
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 180px;">Your hard work paid off!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -8px;"></i>
+                    </p>
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 220px;">I'm grateful for the opportunity!!</p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">Can't wait for your next movie!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 140px;"></i>
+                    </p>
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling">I'll keep working hard to entertain!</p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">You inspire me so much!
+                        <i class="fa-solid fa-face-grin-hearts" style="color: #B197FC;"></i>
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -2px;"></i>
+                    </p>
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 210px;">Your enthusiasm is infectious!</p>
+                </div> 
+                <div class="sticky">
+                    <center><span class="day-1">TODAY</span></center>
+                </div>
+                <div class="text-me-align">
+                    <p class="text-me " style="width: 200px;">I've watched Kalki 2898 AD five times!&ensp;<i class="fa-regular fa-face-grin-stars" style="color: #b71042;"></i>
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 90px;"></i>
+                    </p>   
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 210px;">Five times? Wow, thank you!
+                        <i class="fa-solid fa-face-grin-hearts" style="color: #b96bb5;"></i>
+                    </p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 210px;">The movie's visuals are stunning!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 135px;"></i>
+                    </p>
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 210px;">Visuals are a result of great teamwork!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 125px;"></i>
+                    </p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 200px;">Thank's alot darlingg!! for entertaining us!!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; left: 80px;"></i>
+                    </p>
+                </div> 
+                <div class="text-darling-align">
+                    <p class="text-darling" style="width: 210px;">Love You darlingg, Keeping Enjoying!!</p>
+                </div> 
+                <div class="text-me-align"> <!--Me-->
+                    <p class="text-me " style="width: 100px;">Ok Darlingg!
+                        <i class="fa-solid fa-check-double" style="color: #74C0FC; font-size: 10px; margin-top: 10px; position: relative; top: 4px; right: -2px;"></i>
+                    </p>
+                </div> 
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="newline">
+                <div class="row">
+                    <input class="row-1" type="text" placeholder="Message" >
+                    <i class="fa-solid fa-microphone voice"></i>   
+                </div>
+                <div class="align">
+                    <div class="align-1">
+                        <i class="fa-regular fa-face-smile emoji"></i>
+                    </div>
+                    <div class="align-2">
+                        <i class="fa-solid fa-paperclip attach "></i>
+                        <i class="fa-solid fa-indian-rupee-sign attach"></i>
+                        <i class="fa-solid fa-camera attach"></i>
+                    </div>
+                    <div><br>
+                        <i class="fa-solid fa-angles-left" style="position: absolute; left: 40px; top: 22px; font-size: 12px;"></i>
+                        <i class="fa-solid fa-stop" style="position: absolute; left: 58%; top: 22px; font-size: 12px;"></i>
+                        <i class="fa-solid fa-bars" style="position: absolute; right: 0px; top: 22px; font-size: 12px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 8888888888888fdgfhfghhfhfhfdddddddsddsdsddsds -->
+    </div>
+</body>
+</html>
